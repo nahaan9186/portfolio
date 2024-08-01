@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="container px-5 py-5 mx-auto text-center">
           <div className="message-container">
             <h4 className="message text-gray-300">
-              Thank you.{" "}
+              💕 안녕히 가세요 Thanks For Visiting !!! {" "}
               <span
                 className="emoji"
                 role="img"

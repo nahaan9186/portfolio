@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#11270B] text-gray-300'>
       <div>
-        <h1 className='font-thin text-2xl italic font-serif'>Oghenetega Omarejedje</h1>
+        <h1 className='font-black text-2xl italic font-["Noto_Sans_KR"]'>NA HAAN</h1>
       </div>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/tega-omarejedje-7749b027b/'
+              href='https://www.linkedin.com/in/nahaan9186/'
               target="_blank" rel="noopener noreferrer">
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/tegaomare'
+              href='https://github.com/nahaan9186'
               target="_blank" rel="noopener noreferrer">
               Github <FaGithub size={30} />
             </a>

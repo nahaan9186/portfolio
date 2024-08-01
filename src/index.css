@@ -33,3 +33,7 @@
 .tongue-face-emoji {
   width: 25px;
 }
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
