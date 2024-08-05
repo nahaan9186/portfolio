@@ -18,7 +18,7 @@ const Home = () => {
         {/* <p className="text-black-500 py-4 max-w-md"> */}
         <p className='font-medium py-4 max-w-md font-["Noto_Sans_KR"]'>
           <br></br>
-        주니어 개발자입니만 영상편집/웹디자인/마케팅/유지보수 경험이 있습니다. 
+        주니어 개발자입니다만 영상편집/웹디자인/마케팅/유지보수 경험이 있습니다. 
           <br></br>
         다양한 경험으로 인한 '척 하면 척' 원활한 커뮤니케이션 능력, 빠른 습득능력, *미친 친화력* 보유
           <br></br>

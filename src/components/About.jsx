@@ -20,13 +20,13 @@ const About = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
               <p>
-              Welcome to my digital space!!!
+              이 주니어, 범상치않다
               </p>
             </div>
             <div>
               <p>
                 {" "}
-                Hello! I'm Tega, a Senior at SUNY Potsdam and an aspiring Software Engineer. My journey in computer science has equipped me with a solid foundation in both front-end and back-end technologies. I excel in creating user-friendly interfaces with HTML, CSS, and JavaScript, and I'm proficient in Java for server-side solutions. I'm passionate about leveraging my skills to develop secure, scalable web applications and committed to continuous learning in the ever-evolving tech landscape. Let's connect and create innovative solutions together!
+                크래프톤 정글에서 배운 게 뭐야? 자료구조, 알고리즘, 운영체제, 네트워크, 컴퓨터구조에 대한 기본기를 다졌다고? 새로운 기술을 습득하는 속도가 빠르겠군! 개발자인데 영상편집, 웹디자인, 마케팅이 가능해? 타 부서와의 소통이 원활하겠군! 모름지기 개발 잘 하는 것도 중요하지만, 부서 간 소통과 사용자 관점에서 바라보는 사고력도 만만치않게 중요하지! 게다가 이 녀석, 타고난 친화력으로 남녀노소 가리지 않고 금방 스며드는 능력이 있다구! 자신의 생각을 논리적으로 전달하는 것을 좋아하고, 남들 앞에 서는 것을 두려워하지 않지! 매일 성장을 위해 알고리즘 문제를 풀고 CS개념을 블로그에 기록한다구? 이 녀석, 블로그에도 한 번 들어가봐야겠는걸! 고민할 줄 아는 개발자, 성장할 줄 아는 개발자, 소통할 줄 아는 개발자가 필요하다면 이 녀석을 팀에 합류시켜야겠군! 
               </p>
             </div>
           </div>
