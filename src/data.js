@@ -1,62 +1,65 @@
-import code1 from "../src/assets/moviementor.png";
-import code2 from "../src/assets/f-f-t.png";
+import code1 from "../src/assets/KZH.png";
+import code2 from "../src/assets/SBB3.png";
 import code3 from "../src/assets/R-P-S.png";
-import code4 from "../src/assets/code-quiz.png";
-import code5 from "../src/assets/css-snippet.png";
-import code6 from "../src/assets/tech-blog.png";
+import code4 from "../src/assets/LotteCard3.png";
+import code5 from "../src/assets/visualization.png";
+import code6 from "../src/assets/DrStraight.png";
+import code7 from "../src/assets/DrStraight.png";
 
 const applications = [
   {
     code: code1,
-    title: "MovieMentor",
+    title: "카와이좀비헌터",
     description:
-      "MovieMentor is a powerful movie app designed to enhance your movie-watching experience. ",
+      "좀비로부터 피자를 지키기 위해 분투하는 미소녀 액션 슈팅 3D 숄더뷰 게임, 유니티 기반",
 
-    codeLink: "https://project-211-88db9fc198e3.herokuapp.com/",
-    GitHubLink: "https://github.com/tegaomare/moviementor",
+    codeLink: "https://nahaan.tistory.com/78",
+    GitHubLink: "https://github.com/6puritans9/zedhunter",
   },
   {
     code: code2,
-    title: "food-for-thought",
+    title: "SpringBootBoard",
     description:
-      "Food For Thought is a user-friendly webpage designed to help you find the perfect recipe based on your available ingredient.",
+      "회원가입/로그인/추천/댓글 기능이 있는 질문/답변 게시판, SpringBoot/BootStrap 기반",
 
-    codeLink: "https://danielg808.github.io/food-for-thought/",
-    GitHubLink: "https://github.com/DanielG808/food-for-thought",
+    codeLink: "http://3.36.112.85:8080/",
+    GitHubLink: "https://github.com/nahaan9186/SpringBootBoard",
   },
   {
     code: code3,
-    title: "Rock_Paper_Scissors",
+    title: "이제부터 해야됨",
     description:
-      "This is a web apllication game, againt a user and the computer called",
+      "대충 개쩌는 서비스, react/node.js 기반",
 
-    codeLink: "https://tegaomare.github.io/Rock_Paper_Scissors/",
-    GitHubLink: "https://github.com/tegaomare/Rock_Paper_Scissors",
+    codeLink: "",
+    GitHubLink: "",
   },
   {
     code: code4,
-    title: "Code-Qiuz",
-    description: "A timed coding quiz with multiple-choice questions.",
+    title: "고객사 행낭/화물 조회 시스템",
+    description:
+      "기사님들의 스캔 데이터를 기반으로 행낭/화물의 현재 위치, 다음 경유지, 수령인 등의 정보를 확인할 수 있는 페이지를 만들었어요. 링크는 예시(롯데카드)",
 
-    codeLink: "https://tegaomare.github.io/Code-Qiuz/",
-    GitHubLink: "https://github.com/tegaomare/Code-Qiuz",
+    codeLink: "https://www.shl1978.com/lottecard/",
+    GitHubLink: "",
   },
   {
     code: code5,
-    title: "CSS-Snippet-Cheat--Sheet",
-    description: "a webpage that hold a collection of CSS snippets.",
+    title: "데이터 시각화",
+    description:
+      "서울시 CCTV 설치 현황에 따른 범죄 검거율을 시각화했어요. CCTV와 범죄 검거율 간에 유의미한 상관관계가 있었을까요?, PowerBI 기반",
 
-    codeLink: "https://tegaomare.github.io/CSS-Snippet-Cheat--Sheet/",
-    GitHubLink: "https://github.com/tegaomare/CSS-Snippet-Cheat--Sheet",
+    codeLink: "https://drive.google.com/drive/my-drive?q=after:2024-08-06%20parent:0AJEcHJA-OMkeUk9PVA",
+    GitHubLink: "",
   },
   {
     code: code6,
-    title: "tech-blog",
+    title: "Dr.Straight 광고영상",
     description:
-      "This is a CMS-style blog site designed specifically for developers who want to publish articles, blog posts, and share their thoughts and opinions on various tech topics.",
+      "갸스비 학생 CM 대상을 받았던 작품을 패러디한, 허리가 굽으면 진동이 울리는 자세교정기 광고 영상. 영상 제작자 시절에 만들었어요. 아, 참고로 카와이좀비헌터 시연 영상 편집도 제가 했답니다.",
 
-    codeLink: "https://cbctech-blog-3328d1c29db1.herokuapp.com/",
-    GitHubLink: "https://github.com/tegaomare/tech-blog",
+    codeLink: "https://youtu.be/18KQNDkXBdQ?si=LX77eKrSOU6qCUF1",
+    GitHubLink: "",
   },
 ];
 export default applications;
