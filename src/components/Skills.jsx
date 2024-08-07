@@ -42,13 +42,25 @@ const Skills = () => {
                   <p className='my-4'>MONGO DB</p>
               </div>
               <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
-                  <p className='my-4'>AWS</p>
+                  <p className='my-4'>AWS EC2</p>
               </div>
               <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
-                  <p className='my-4'>AZURE</p>
+                  <p className='my-4'>AZURE VM</p>
               </div>
               <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
-                  <p className='my-4'>UNITY</p>
+                  <p className='my-4'>UBUNTU</p>
+              </div>
+              <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
+                  <p className='my-4'>AMAZON LINUX</p>
+              </div>
+              <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
+                  <p className='my-4'>MAC OS</p>
+              </div>
+              <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
+                  <p className='my-4'>PINTOS</p>
+              </div>
+              <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
+                  <p className='my-4'>UNITY & C#</p>
               </div>
               <div className='shadow-md shadow-[#178C38] hover:scale-110 duration-500'>
                   <p className='my-4'>ADOBE TOOLS</p>
