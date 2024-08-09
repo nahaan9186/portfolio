@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TegaCV from '../assets/Tega_Omarejedje_CV.pdf';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { SiTistory } from "react-icons/si";
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -56,10 +57,10 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href={TegaCV}
+              href='https://nahaan.tistory.com/'
               target="_blank"
               rel="noopener noreferrer">
-              Resume <BsFillPersonLinesFill size={30} />
+              Blog <SiTistory size={30} />
             </a>
           </li>
         </ul>

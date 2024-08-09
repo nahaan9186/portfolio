@@ -4,7 +4,6 @@ import code3 from "../src/assets/R-P-S.png";
 import code4 from "../src/assets/LotteCard3.png";
 import code5 from "../src/assets/visualization.png";
 import code6 from "../src/assets/DrStraight.png";
-import code7 from "../src/assets/DrStraight.png";
 
 const applications = [
   {
@@ -50,7 +49,7 @@ const applications = [
       "서울시 CCTV 설치 현황에 따른 범죄 검거율을 시각화했어요. CCTV와 범죄 검거율 간에 유의미한 상관관계가 있었을까요?, PowerBI 기반",
 
     codeLink: "https://drive.google.com/drive/my-drive?q=after:2024-08-06%20parent:0AJEcHJA-OMkeUk9PVA",
-    GitHubLink: "",
+    GitHubLink: "https://drive.google.com/file/d/1w6FpEbnUx0Iu5GtTHuBLv2uQcJ7sgvPY/view?usp=sharing",
   },
   {
     code: code6,

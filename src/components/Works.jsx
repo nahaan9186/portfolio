@@ -1,7 +1,7 @@
 import React from 'react';
 import applications from '../data';
 
-const ApplicationItem = ({ code,title, description,  codeLink, GitHubLink }) => (
+const ApplicationItemSingle = ({ code, title, description, codeLink }) => (
   <div
     style={{ backgroundImage: `url(${code})` }}
     className='shadow-lg shadow-[#178C38] group container rounded-md flex justify-center items-center mx-auto content-div '
@@ -15,12 +15,34 @@ const ApplicationItem = ({ code,title, description,  codeLink, GitHubLink }) => 
       <div className='pt-8 text-center'>
         <a href={codeLink}>
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#178C38] text-black-500 font-bold text-lg'>
-          Show Webpage
+            Show Webpage
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+);
+
+const ApplicationItemDouble = ({ code, title, description, codeLink, GitHubLink }) => (
+  <div
+    style={{ backgroundImage: `url(${code})` }}
+    className='shadow-lg shadow-[#178C38] group container rounded-md flex justify-center items-center mx-auto content-div '
+  >
+    {/* Hover Effects */}
+    <div className=' opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col '>
+      <span className=' text-lg font-bold text-black-500 tracking-wider'>
+        {title}
+      </span>
+      <p className='text-center'>{description}</p>
+      <div className='pt-8 text-center'>
+        <a href={codeLink}>
+          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#178C38] text-black-500 font-bold text-lg'>
+            Show Webpage
           </button>
         </a>
         <a href={GitHubLink}>
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#178C38] text-black-500 font-bold text-lg'>
-          GitHub
+            GitHub
           </button>
         </a>
       </div>
@@ -42,7 +64,9 @@ const Works = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
           {applications.map((app, index) => (
-            <ApplicationItem key={index} {...app} />
+            app.GitHubLink ? 
+              <ApplicationItemDouble key={index} {...app} /> :
+              <ApplicationItemSingle key={index} {...app} />
           ))}
         </div>
       </div>

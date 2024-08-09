@@ -1,6 +1,6 @@
 # React Personal Portfolio
 
-<img src="./images/webpage.png" alt="insomnia screenshot">
+<img src="./images/mainpage.png" alt="insomnia screenshot">
 
 ## Description:
 
