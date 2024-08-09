@@ -8,7 +8,7 @@ A personal portfolio website built using React, showcasing my skills, projects, 
 
 ## Netlify Link
 
-https://main--euphonious-cat-fbb26c.netlify.app/
+https://nahaan.site/
 
 ## Technology:
 
@@ -38,13 +38,3 @@ After installing npm packages, the application will be invoked by using the foll
 npm start
 ```
 
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
-This project is licensed under MIT, for more information please visit [this website](https://opensource.org/licenses/MIT)
-
-## Credits
-
-Columbia University Coding Bootcamp
-
-https://github.com/Tammibriggs/portfolio-butterCMS
